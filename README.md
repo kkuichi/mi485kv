@@ -11,34 +11,36 @@ Bakalárska práca sa zaoberá identifikáciou poistných podvodov s dôrazom na
 
 ### Inštalácia knižníc
 Zoznam hlavných knižníc, ktoré sú potrebné aby boli nainštalované v najnovšej verzii:
--pandas
--numpy 
--scikit-learn
--xgboost
--imbalanced-learn
--shap
--matplotlib
--seaborn
+
+- pandas
+- numpy 
+- scikit-learn
+- xgboost
+- imbalanced-learn
+- shap
+- matplotlib
+- seaborn
 
 ### Dataset
 Pre túto prácu bol použitý dataset dostupný na adrese: https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4954928053318020/1058911316420443/167703932442645/latest.html , ktorý sme v našej práci použili ako vstupný daataset súbor `insurance_data.csv`. 
 
 ### Použité modely
 Modely, ktoré boli trénované a testované:
--Logistic Regression
--Gradient Boosting
--Decision Tree
--Random Forest
--XGBoost
--VotingClassifier (kombinovaný model)
+
+- Logistic Regression
+- Gradient Boosting
+- Decision Tree
+- Random Forest
+- XGBoost
+- VotingClassifier (kombinovaný model)
 
 ### Použité metriky na vyhodnotenie
 Výber najlepšieho modelu prebiehal na základe metrík:
--úspešnosť (accuracy)
--presnosť (precision)
--návratnosť (recall)
--F1-skóre
--ROC AUC
+- úspešnosť (accuracy)
+- presnosť (precision)
+- návratnosť (recall)
+- F1-skóre
+- ROC AUC
 
 ### Interpretácia modelou
 Pre interpretáciu bola použitá knižnica SHAP (SHapley Additive exPlanations), ktorá pomáha vizualizovať dôležitosť príznakov pre jednotlivé predikcie.
